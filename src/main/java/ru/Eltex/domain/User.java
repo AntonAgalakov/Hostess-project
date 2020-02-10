@@ -1,7 +1,8 @@
-package ru.Eltex;
+package ru.Eltex.domain;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import ru.Eltex.domain.Role;
 
 import javax.persistence.*;
 import java.util.Collection;

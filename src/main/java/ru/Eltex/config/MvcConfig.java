@@ -1,4 +1,4 @@
-package ru.Eltex;
+package ru.Eltex.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

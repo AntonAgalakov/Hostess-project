@@ -1,4 +1,4 @@
-package ru.Eltex;
+package ru.Eltex.domain;
 
 import javax.persistence.*;
 
