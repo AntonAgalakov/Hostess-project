@@ -5,5 +5,7 @@ import ru.Eltex.domain.Reservation;
 import java.util.List;
 
 public interface ReservationRepo extends CrudRepository<Reservation, Long> {
-    List<Reservation> findByTag(String tag);
+    List<Reservation>findByNtable(String ntable);
+    List<Reservation>findByData(String data);
+    List<Reservation>findByDataAndNtable(String data, String ntable);
 }

@@ -6,6 +6,8 @@ Web application for restaurant hostess.
 - Java
 - Spring Framework
 - PostgreSQL
+- Bootstrap
+- FreeMarker
 - more...
 
 Developers Agalakov Anton and Sergeev Artur.
