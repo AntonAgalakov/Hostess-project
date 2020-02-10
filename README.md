@@ -7,3 +7,5 @@ Web application for restaurant hostess.
 - Spring Framework
 - PostgreSQL
 - more...
+
+Developers Agalakov Anton and Sergeev Artur.
