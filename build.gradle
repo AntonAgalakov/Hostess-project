@@ -35,9 +35,11 @@ dependencies {
     compile group: 'javax.xml.bind', name: 'jaxb-api', version: '2.4.0-b180830.0359'
     compile group: 'com.sun.xml.bind', name: 'jaxb-core', version: '2.3.0.1'
     compile group: 'com.sun.xml.bind', name: 'jaxb-impl', version: '2.4.0-b180830.0438'
+    implementation 'org.springframework.security:spring-security-test'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
+    //implementation 'junit:junit:4.12'
 }
 
 test {

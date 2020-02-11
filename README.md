@@ -8,6 +8,7 @@ Web application for restaurant hostess.
 - PostgreSQL
 - Bootstrap
 - FreeMarker
+- Junit
 - more...
 
 Developers Agalakov Anton and Sergeev Artur.
