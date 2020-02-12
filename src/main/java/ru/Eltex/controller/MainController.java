@@ -42,11 +42,11 @@ public class MainController {
     public String main(@RequestParam(required = false, defaultValue = "") String filter, @RequestParam(required = false, defaultValue ="") String filterD, Model model) {
         Iterable<Reservation> reservations = reservationRepo.findAll();
         if (filterD != null && !filterD.isEmpty() && filter != null && !filter.isEmpty()) {
-            reservations = reservationRepo.findByDataAndNtable(filterD, filter);
+            reservations = reservationRepo.findByNdataAndNtable(filterD, filter);
         } else if (filter != null && !filter.isEmpty()) {
             reservations = reservationRepo.findByNtable(filter);
         } else if (filterD != null && !filterD.isEmpty()) {
-            reservations = reservationRepo.findByData(filterD);
+            reservations = reservationRepo.findByNdata(filterD);
         } else {
             reservations = reservationRepo.findAll();
         }
@@ -62,11 +62,11 @@ public class MainController {
             @AuthenticationPrincipal User user,
             @RequestParam String text,
             @RequestParam String ntable,
-            @RequestParam String data,
-            @RequestParam String time,
+            @RequestParam String ndata,
+            @RequestParam String ntime,
             @RequestParam String nofP, Map<String, Object> model
     ) throws IOException {
-        Reservation reservation = new Reservation(text, ntable, data, time, nofP, user);
+        Reservation reservation = new Reservation(text, ntable, ndata, ntime, nofP, user);
 
         reservationRepo.save(reservation);
 

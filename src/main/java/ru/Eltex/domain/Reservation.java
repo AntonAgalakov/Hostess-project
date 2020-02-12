@@ -9,8 +9,8 @@ public class Reservation {
     private Long id;
     private String text;
     private String ntable;
-    private String data;
-    private String time;
+    private String ndata;
+    private String ntime;
     private String nofP;
 
     @ManyToOne(fetch = FetchType.EAGER)
@@ -26,8 +26,8 @@ public class Reservation {
         this.author = user;
         this.text = text;
         this.ntable = table;
-        this.data = data;
-        this.time = time;
+        this.ndata = data;
+        this.ntime = time;
         this.nofP = NofP;
     }
 
@@ -68,19 +68,19 @@ public class Reservation {
     }
 
     public String getData() {
-        return data;
+        return ndata;
     }
 
     public void setData(String data) {
-        this.data = data;
+        this.ndata = data;
     }
 
     public String getTime() {
-        return time;
+        return ntime;
     }
 
     public void setTime(String time) {
-        this.time = time;
+        this.ntime = time;
     }
 
     public String getFilename() {

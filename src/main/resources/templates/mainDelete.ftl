@@ -23,13 +23,13 @@
             <div class="form-group row">
                 <label for="staticEmail" class="col-sm-2 col-form-label">Data</label>
                 <div class="col-sm-10">
-                    <input type="text" readonly class="inputreservation" name="data" value="${reservation.data}" />
+                    <input type="text" readonly class="inputreservation" name="ndata" value="${reservation.data}" />
                 </div>
             </div>
             <div class="form-group row">
                 <label for="staticEmail" class="col-sm-2 col-form-label">Time</label>
                 <div class="col-sm-10">
-                    <input type="text" readonly class="inputreservation" name="time" value="${reservation.time}" />
+                    <input type="text" readonly class="inputreservation" name="ntime" value="${reservation.time}" />
                 </div>
             </div>
             <div class="form-group row">

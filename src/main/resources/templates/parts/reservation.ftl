@@ -20,13 +20,13 @@
                 <div class="form-group row">
                     <label for="staticEmail" class="col-sm-2 col-form-label">Data</label>
                     <div class="col-sm-10">
-                        <input type="text" class="inputreservation" name="data" placeholder="DD/MM/YY" />
+                        <input type="text" class="inputreservation" name="ndata" placeholder="DD/MM/YY" />
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="staticEmail" class="col-sm-2 col-form-label">Time</label>
                     <div class="col-sm-10">
-                        <input type="text" class="inputreservation" name="time" placeholder="**:**" />
+                        <input type="text" class="inputreservation" name="ntime" placeholder="**:**" />
                     </div>
                 </div>
                 <div class="form-group row">
@@ -35,7 +35,7 @@
                         <input type="text" class="inputreservation" name="nofP" placeholder="8(***)***-**-**" />
                     </div>
                 </div>
-                <input type="hidden" name="_csrf" value="${_csrf.token}" /> <br>
+                <input type="hidden" name="_csrf" value="${_csrf.token}" /> <br />
                 <button type="submit" class="btn btn-gold">Add</button>
             </div>
         </form>

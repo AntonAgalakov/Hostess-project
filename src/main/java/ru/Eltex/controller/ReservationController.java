@@ -30,15 +30,15 @@ public class ReservationController {
     public String reservationSave(
             @RequestParam String text,
             @RequestParam String ntable,
-            @RequestParam String data,
-            @RequestParam String time,
+            @RequestParam String ndata,
+            @RequestParam String ntime,
             @RequestParam String nofP,
             @RequestParam("reservationId") Reservation reservation
     ) {
         reservation.setText(text);
         reservation.setTable(ntable);
-        reservation.setData(data);
-        reservation.setTime(time);
+        reservation.setData(ndata);
+        reservation.setTime(ntime);
         reservation.setNofP(nofP);
 
         reservationRepo.save(reservation);

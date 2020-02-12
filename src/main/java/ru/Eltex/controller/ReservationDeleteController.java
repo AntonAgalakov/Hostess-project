@@ -24,8 +24,8 @@ public class ReservationDeleteController {
     public String reservationDelete(
             @RequestParam String text,
             @RequestParam String ntable,
-            @RequestParam String data,
-            @RequestParam String time,
+            @RequestParam String ndata,
+            @RequestParam String ntime,
             @RequestParam String nofP,
             @RequestParam("reservationId") Reservation reservation
     ) {
