@@ -17,7 +17,7 @@
             </div>
             <div class="form-group mx-sm-3 mb-2">
                 <label for="inputPassword2" class="sr-only">Data</label>
-                <input type="text" class="form-control" name="filterD" value="${filterD?ifExists}" placeholder="data" />
+                <input type="date" class="form-control" name="filterD" value="${filterD?ifExists}" placeholder="data" />
             </div>
             <button type="submit" class="btn btn-ingold mb-2">Find</button>
         </form>

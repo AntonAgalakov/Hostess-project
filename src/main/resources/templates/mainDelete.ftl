@@ -35,7 +35,7 @@
             <div class="form-group row">
                 <label for="staticEmail" class="col-sm-2 col-form-label">Number of phone</label>
                 <div class="col-sm-10">
-                    <input type="text" readonly class="inputreservation" name="nofP" value="${reservation.nofP}" />
+                    <input type="text" readonly class="inputreservation" name="nofP" value="${reservation.nofP}" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" />
                 </div>
             </div>
             <input type="hidden" value="${reservation.id}" name="reservationId">

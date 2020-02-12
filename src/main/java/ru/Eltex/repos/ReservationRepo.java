@@ -8,4 +8,5 @@ public interface ReservationRepo extends CrudRepository<Reservation, Long> {
     List<Reservation>findByNtable(String ntable);
     List<Reservation>findByNdata(String ndata);
     List<Reservation>findByNdataAndNtable(String ndata, String ntable);
+    List<Reservation>findByNdataAndNtableAndNtime(String ndata, String ntable, String ntime);
 }
