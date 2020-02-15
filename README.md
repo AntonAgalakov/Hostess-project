@@ -11,4 +11,6 @@ Web application for restaurant hostess.
 - Junit
 - more...
 
+[![Build Status](https://travis-ci.org/AntonAgalakov/Hostess-project.svg?branch=master)](https://github.com/AntonAgalakov/Hostess-project)
+
 Developers Agalakov Anton and Sergeev Artur.
