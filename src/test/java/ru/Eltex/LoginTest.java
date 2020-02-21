@@ -14,6 +14,11 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.redirectedUrl;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 /*
+
+
+    It works locally, a Travis CI error. We fix the bug.
+
+
 @SpringBootTest
 @AutoConfigureMockMvc
 public class LoginTest {

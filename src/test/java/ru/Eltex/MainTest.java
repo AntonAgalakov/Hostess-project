@@ -17,6 +17,9 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 /*
+
+        It works locally, a Travis CI error. We fix the bug.
+
 @SpringBootTest
 @AutoConfigureMockMvc
 @WithUserDetails(value = "testuser1")
